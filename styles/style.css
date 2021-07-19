@@ -1,9 +1,16 @@
 body{
     font-family: 'Oxygen', sans-serif;
+    color:#1a1a1a;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-weight: 300;
+}
+
+a{
+    color:#3A3795;
+    text-decoration: none;
+    font-weight:600;
 }
 
 img{
@@ -11,7 +18,7 @@ img{
 }
 
 header{
-    background:url('../images/website-hero2.jpg') center bottom no-repeat;
+    background:url('../images/website-hero2.jpg') center center no-repeat;
     background-size: cover;
     position:relative;
 }
@@ -22,7 +29,7 @@ header > *{
 }
 
 header::before{
-    background:rgba(58, 55, 149, 0.6);
+    background:rgba(58, 55, 149, 0.55);
     position:absolute;
     height:100%;
     width:100%;
@@ -55,11 +62,40 @@ header::before{
 .green-bold{
     color:#B8C901;
     text-transform: uppercase;
-    font-weight:600;
+    font-weight:500;
     font-size:110%;
 }
 
 #phone{
     background:#020624;
     color:#fff;
+}
+
+.card{
+    height:100%;
+    border-radius:0 !important;
+}
+
+.card .card-title{
+    font-weight:600;
+    color:#B215D9;
+}
+
+footer ul li{
+    margin-right:1em;
+}
+
+footer ul li:last-of-type{
+    margin-right:0;
+}
+
+
+footer a{
+    color:#1a1a1a;
+    font-weight: normal;
+    font-size:80%;
+}
+
+footer .fab{
+    font-size:200%;
 }
