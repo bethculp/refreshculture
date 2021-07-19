@@ -1,0 +1,65 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+}
+
+img{
+    max-width:100%;
+}
+
+header{
+    background:url('../images/website-hero2.jpg') center bottom no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+header > *{
+    position:relative;
+    z-index:1;
+}
+
+header::before{
+    background:rgba(58, 55, 149, 0.6);
+    position:absolute;
+    height:100%;
+    width:100%;
+    content:'';
+    display:block;
+    z-index:0;
+}
+
+.navbar{
+    background:rgba(58, 55, 149, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+
+#hero{
+    min-height: 85vh;
+}
+
+#hero .logo{
+    max-width:300px;
+}
+
+#hero h1{
+    max-width:700px;
+    color:#fff; 
+}
+
+.green-bold{
+    color:#B8C901;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:110%;
+}
+
+#phone{
+    background:#020624;
+    color:#fff;
+}
